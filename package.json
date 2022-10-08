@@ -1,0 +1,32 @@
+{
+  "name": "@imhoff/react-hooks",
+  "version": "0.0.0",
+  "description": "A collection of React hooks",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imhoffd/react-hooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "Daniel Imhoff <dwieeb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imhoffd/react-hooks/issues"
+  },
+  "homepage": "https://github.com/imhoffd/react-hooks#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "react": "^18.2.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": "^18"
+  }
+}
