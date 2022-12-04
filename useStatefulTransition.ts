@@ -14,7 +14,7 @@ export const defaultFallbackDelay = 0
 export const defaultDelay = 250
 export const defaultDuration = 200
 
-export interface UseTransitionOptions {
+export interface UseStatefulTransitionOptions {
   enterDelay?: boolean | number
   enterDuration?: number
   exitDelay?: boolean | number
@@ -24,7 +24,7 @@ export interface UseTransitionOptions {
 
 export default function useStatefulTransition(
   enter: boolean,
-  options: UseTransitionOptions,
+  options: UseStatefulTransitionOptions,
   deps: any[] = [],
 ): TransitionState {
   const [state, setState] = useState<TransitionState>(
