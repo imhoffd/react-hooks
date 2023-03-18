@@ -1,6 +1,6 @@
 {
   "name": "@imhoff/react-hooks",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A collection of React hooks",
   "main": "index.js",
   "scripts": {
