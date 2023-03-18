@@ -1,6 +1,6 @@
 {
   "name": "@imhoff/react-hooks",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "A collection of React hooks",
   "exports": {
     "./useEvent": {
