@@ -10,8 +10,14 @@
     "./useMediaQuery": {
       "import": "./dist/useMediaQuery.js"
     },
+    "./useMounted": {
+      "import": "./dist/useMounted.js"
+    },
     "./useMutexTimeout": {
       "import": "./dist/useMutexTimeout.js"
+    },
+    "./useOnMount": {
+      "import": "./dist/useOnMount.js"
     },
     "./useSize": {
       "import": "./dist/useSize.js"
