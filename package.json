@@ -2,14 +2,41 @@
   "name": "@imhoff/react-hooks",
   "version": "0.3.1",
   "description": "A collection of React hooks",
-  "main": "index.js",
+  "type": "module",
+  "exports": {
+    "./useEvent": {
+      "import": "./dist/useEvent.js"
+    },
+    "./useMediaQuery": {
+      "import": "./dist/useMediaQuery.js"
+    },
+    "./useMutexTimeout": {
+      "import": "./dist/useMutexTimeout.js"
+    },
+    "./useSize": {
+      "import": "./dist/useSize.js"
+    },
+    "./useStatefulTransition": {
+      "import": "./dist/useStatefulTransition.js"
+    },
+    "./useTimeout": {
+      "import": "./dist/useTimeout.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
     "lint": "pnpm run eslint && pnpm run prettier --check",
     "fmt": "pnpm run eslint --fix && pnpm run prettier --write",
-    "prettier": "prettier \"**/*.ts\"",
-    "eslint": "eslint \"**/*.ts\"",
+    "prettier": "prettier \"src/**/*.ts\"",
+    "eslint": "eslint \"src/**/*.ts\"",
     "prepare": "pnpm run build"
   },
   "repository": {

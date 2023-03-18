@@ -6,9 +6,12 @@
     "importHelpers": true,
     "module": "commonjs",
     "moduleResolution": "node",
+    "outDir": "./dist",
     "skipLibCheck": true,
+    "sourceRoot": "./src",
+    "sourceMap": true,
     "strict": true,
-    "target": "es2020"
+    "target": "es2021"
   },
-  "include": ["**/*.ts"]
+  "include": ["src/**/*.ts"]
 }

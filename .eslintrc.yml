@@ -1,0 +1,6 @@
+parserOptions:
+  tsconfigRootDir: '.'
+  project: './tsconfig.json'
+extends: '@imhoff/eslint-config/recommended'
+ignorePatterns:
+  - 'dist/**/*'
