@@ -4,29 +4,8 @@
   "description": "A collection of React hooks",
   "type": "module",
   "exports": {
-    "./useEvent": {
-      "import": "./dist/useEvent.js"
-    },
-    "./useMediaQuery": {
-      "import": "./dist/useMediaQuery.js"
-    },
-    "./useMounted": {
-      "import": "./dist/useMounted.js"
-    },
-    "./useMutexTimeout": {
-      "import": "./dist/useMutexTimeout.js"
-    },
-    "./useOnMount": {
-      "import": "./dist/useOnMount.js"
-    },
-    "./useSize": {
-      "import": "./dist/useSize.js"
-    },
-    "./useStatefulTransition": {
-      "import": "./dist/useStatefulTransition.js"
-    },
-    "./useTimeout": {
-      "import": "./dist/useTimeout.js"
+    ".": {
+      "import": "./dist/index.js"
     }
   },
   "typesVersions": {
