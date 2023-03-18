@@ -2,25 +2,24 @@
   "name": "@imhoff/react-hooks",
   "version": "0.4.0",
   "description": "A collection of React hooks",
-  "type": "module",
   "exports": {
     "./useEvent": {
-      "import": "./dist/useEvent.js"
+      "require": "./dist/useEvent.js"
     },
     "./useMediaQuery": {
-      "import": "./dist/useMediaQuery.js"
+      "require": "./dist/useMediaQuery.js"
     },
     "./useMutexTimeout": {
-      "import": "./dist/useMutexTimeout.js"
+      "require": "./dist/useMutexTimeout.js"
     },
     "./useSize": {
-      "import": "./dist/useSize.js"
+      "require": "./dist/useSize.js"
     },
     "./useStatefulTransition": {
-      "import": "./dist/useStatefulTransition.js"
+      "require": "./dist/useStatefulTransition.js"
     },
     "./useTimeout": {
-      "import": "./dist/useTimeout.js"
+      "require": "./dist/useTimeout.js"
     }
   },
   "typesVersions": {
